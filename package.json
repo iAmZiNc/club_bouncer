@@ -1,0 +1,19 @@
+{
+    "name": "club_bouncer",
+    "version": "1.0.0",
+    "description": "Club Bouncer by ZiNc#2032",
+    "main": "index.js",
+    "author": "ZiNc#2032",
+    "bugs": "http://elementalbot.com",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://gitlab.com/iAmZiNc/elemental-dev.git"
+    },
+    "readme": "https://github.com/iAmZiNc/club_bouncer/blob/master/README.md",
+    "dependencies": {
+        "discord.js": "^12.2.0",
+        "moment": "^2.24.0",
+        "postgres": "^1.0.2"
+    }
+}
