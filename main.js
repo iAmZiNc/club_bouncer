@@ -5,9 +5,13 @@ const client = new discordClient() // create our client instance
 
 // ------------------------------------- SETUP / UTILITIES ------------------------------------- //
 
+// utils
 require('./utils/globalProperties')(client) // global variables
 require('./utils/commandManager')(client) // commands
-require('./prototypes/MessageEmbed')(client) // prototypes
+require('./utils/databaseManager')(client) // database manager
+
+// prototype extensions
+require('./prototypes/MessageEmbed')(client)
 
 // ------------------------------------------- EVENTS ------------------------------------------ //
 
