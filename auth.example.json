@@ -1,0 +1,10 @@
+{
+    "token": "",
+
+    "dbUsername": "",
+    "dbPassword": "",
+    "dbName": "",
+    "dbHost": "",
+    "dbPort": 10000,
+    "dbCert": "t"
+}
